@@ -1,4 +1,4 @@
-## We are ready to deploy first application!
+## We are ready to deploy our first application!
 
 ---
 
@@ -6,7 +6,7 @@
 
 
 ```bash
-# CLONE FROM GIT
+# CLONE FROM GITHUB
 $ git clone https://github.com/swisscom/cf-sample-app-node
 ```
 

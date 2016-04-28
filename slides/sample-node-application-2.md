@@ -1,6 +1,6 @@
-## Time for more advances version of our application
+## Time for more advanced version of our application
 
-We will use NO SQL Database
+We will use a NoSQL Database
 
 ---
 
@@ -17,7 +17,7 @@ Attention: The plan `small` of service `mongodb` is not free.  The instance `mym
 
 ---
 
-## Check if it running
+## Check if it is running
 
 ```bash
 # DISPLAY SERVICE INSTACE INFO
@@ -43,15 +43,26 @@ Store config in the environment
 
 ---
 
-## How do we inject config to environment?
+## How do we inject the config into the environment?
 
-Service Biding injects service keys into app environment
+The service binding injects the service's credentials into your app environment.
 
 ---
 
 
 
-## Read config in the environment
+## Service Binding
+
+Service Biding can be achieved via:
+
+*  Manifest file
+* _cf bind-service_ command
+
+---
+
+
+
+## Read config from the environment
 
 Switch the branch in git to _final-result_:
 
@@ -63,7 +74,8 @@ git checkout final-result
 
 ## Read ENV Variables
 
-Code: we can get the DB Url and Credential from ENV
+
+Code: we can get the DB's URL and credentials from ENV
 
 ```js
 // check if the app is running in the cloud and set the MongoDB settings accordingly

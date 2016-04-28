@@ -16,9 +16,9 @@ $ cf push yourapp
 
 ## Buildpacks
 
-
 Buildpacks provide framework and runtime support for your applications.
-When you push the application appropriate build pack needs to selected.
+When you push your application, the appropriate buildpack needs to be selected.
+
 
 Almost **any** programming language is supported.
 
@@ -29,13 +29,16 @@ Almost **any** programming language is supported.
 
 You can push Docker Images from Docker Registries
 
-
+```bash
+# PUSH DOCKER IMAGE:
+$ cf push -docker-image user/docker-image-name
+```
 
 ---
 
 ## Staging
 
-During staging executable **droplet** is created feither rom:
+During staging executable **droplet** is created either from:
 * Application + Buildpack
 * Docker Image
 

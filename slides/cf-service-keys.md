@@ -10,7 +10,6 @@ OK
 Attention: The plan `small` of service `mariadb` is not free.  The instance `mymariadb` will incur a cost.  Contact your administrator if you think this is in error.
 ```
 
----
 
 ```bash
 # CREATE NEW SERVICE KEY
@@ -46,6 +45,6 @@ $ cf service-connector 13000 10.0.20.18:3306:3306
 
 ## Now we can reach this service
 
-localhost:13000
+[http://localhost:13000](http://localhost:13000)"
 
 

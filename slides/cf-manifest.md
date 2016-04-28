@@ -1,6 +1,6 @@
 ## Application Manifest (#1)
 
-Application manifests tell cf push what to do with applications.
+An application manifest tell _cf push_ what to do with the application.
 
 This includes everything from how many instances to create and how much memory to allocate to what services applications should use.
 
@@ -10,10 +10,10 @@ This includes everything from how many instances to create and how much memory t
 
 A manifest can help you automate deployment, especially of multiple applications at once.
 
-Manifests are written in YAML.
+Manifests are written in [YAML](http://yaml.org).
 
 
-Minimal manifest requires only an application name
+A minimal manifest requires only an application's name
 
 ```
 ---

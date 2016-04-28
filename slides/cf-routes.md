@@ -11,14 +11,14 @@ for the route across all instances of all mapped apps.
 
 ---
 
-## Routes(#3)
+## Routes (#3)
 
 An individual app can also be mapped to multiple routes, granting multiple URLs access to the app.
 
 ---
 
 ## Routes (#4)
-Routes belong to a **[space]()**, so that only apps in the same space can be mapped to a route.
+Routes belong to a **space**, so that only apps in the same space can be mapped to a route.
 Routes are **globally unique**, so that member users of one space cannot create a route with the same URL.
 
 ---
@@ -26,6 +26,6 @@ Routes are **globally unique**, so that member users of one space cannot create 
 
 ## Routes (#5)
 
-Blue Green Deployments - a piece of cake with the Cloud Foundry
+[Blue Green Deployments](http://martinfowler.com/bliki/BlueGreenDeployment.html) - a piece of cake with the [Cloud Foundry](https://gist.github.com/mastertinner/3eb3c0e2e5e3558d56d1)
 
 <img src="images/green-blue-deployment.jpg" style="background:none; border:none; box-shadow:none;" />
