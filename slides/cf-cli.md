@@ -34,3 +34,22 @@ OK
 ```bash
 $cf target -o ORG -s SPACE
 ```
+
+---
+
+```bash
+# LIST SPACES IN CURRENT ORG
+$ cf spaces
+
+dev
+prod
+```
+
+
+```bash
+# LIST ORGS
+$ cf orgs
+
+team1
+team2
+```

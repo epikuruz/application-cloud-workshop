@@ -17,7 +17,7 @@ Attention: The plan `small` of service `mongodb` is not free.  The instance `mym
 
 ---
 
-## Check it
+## Check if it running
 
 ```bash
 # DISPLAY SERVICE INSTACE INFO
