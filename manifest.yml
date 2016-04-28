@@ -1,7 +1,7 @@
 ---
 applications:
 - name: application-cloud-workshop
-  memory: 512M
+  memory: 64M
   instances: 1
   buildpack: https://github.com/cloudfoundry/staticfile-buildpack
   route: application-cloud-workshop

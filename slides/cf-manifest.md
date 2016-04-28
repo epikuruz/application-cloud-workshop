@@ -23,6 +23,8 @@ applications:
 
 ---
 
+## Manifest: Buildpack Attribute
+
 The buildpack attribute
 If your application requires a custom buildpack, you can use the buildpack attribute to specify its URL or name:
 
@@ -34,7 +36,7 @@ If your application requires a custom buildpack, you can use the buildpack attri
 
 ---
 
-## Instances
+## Manifest: Instances Attribute
 
 Use the instances attribute to specify the number of app instances that you want to start upon push:
 
@@ -47,7 +49,7 @@ Use the instances attribute to specify the number of app instances that you want
 
 ---
 
-## The memory attribute
+## Manifest: Memory Attribute
 
 ```yaml
   ---
@@ -57,7 +59,9 @@ Use the instances attribute to specify the number of app instances that you want
 
 ---
 
-## Services
+## Manifest: Services Attribute
+
+Defines binding to services such as databases, messaging, and key-value stores.
 
 ```yaml
 ---

@@ -21,6 +21,7 @@ applications:
 
 ```bash
 $ cf push
+Using manifest file .../.../manifest.yml
 ```
 
 ```bash

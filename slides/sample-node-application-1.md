@@ -20,8 +20,10 @@ $ cf push my-node-app --random-route
 ```
 
 ```bash
-# CHECK APP HEALTH AND STATUS
+
+# LIST ALL APPS
 $ cf apps
+# CHECK OUR APP HEALTH AND STATUS
 $ cf app my-node-app
 ```
 

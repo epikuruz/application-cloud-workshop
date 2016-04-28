@@ -1,5 +1,9 @@
 ##  Routes (#1)
-HTTP requests are routed to applications pushed to Cloud Foundry by associating an application with a URL, known as a route. This association can be called a mapping. For example, a developer might say, “I mapped route myapp.shared-domain.com to app myapp”.
+HTTP requests are routed to applications pushed to Cloud Foundry by associating an application with a URL, known as a route.
+
+This association is called a mapping.
+
+^“I mapped route myapp.shared-domain.com to app myapp”.
 
 ---
 
