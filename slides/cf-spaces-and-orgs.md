@@ -1,8 +1,8 @@
-##  Let's start with Cloud Foundry fundamentals
+##  Let's start with the Cloud Foundry fundamentals
 
 ---
 
-##  Every app and service are scoped to a space
+##  Every app and service is scoped to a space
 
 
 ---
@@ -42,14 +42,13 @@ A **user account** represents an individual person within the context of a Cloud
 
 ## User Accounts (#2)
 
-
 A **user** can have different roles in different spaces within an org, governing what level and type of access they
 have within that space.
 
 
 ---
 
-## Cloud Foundry fundamentals at the glance
+## The Cloud Foundry fundamentals at the glance
 
 <img src="images/orgs-spaces.png" style="background:none; border:none; box-shadow:none;" />
 
@@ -57,8 +56,8 @@ have within that space.
 
 ## Complicated?
 
-It is simple. Typically:
+It is simple! Typically:
 
 * Org = Team
 * Space = Environment like "_test_", "_prod_" etc.
-* You push your apps and create service in given space
+* You push your apps and create service in the given space
