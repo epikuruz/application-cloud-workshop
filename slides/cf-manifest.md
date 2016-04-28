@@ -25,7 +25,6 @@ applications:
 
 ## Manifest: Buildpack Attribute
 
-The buildpack attribute
 If your application requires a custom buildpack, you can use the buildpack attribute to specify its URL or name:
 
 ```yaml

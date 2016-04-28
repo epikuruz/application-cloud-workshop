@@ -4,7 +4,7 @@ Command line client for Cloud Foundry - download from your space in Web Console
 
 ---
 
-## Does it work?
+## Does your cf cli work?
 
 ```bash
 $ cf

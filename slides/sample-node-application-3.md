@@ -52,7 +52,7 @@ $ cf app my-node-app
 ## Step: Add route
 
 ```bash
-$cf map-route my-node-app scapp.io -n my-random-hostname-123
+$ cf map-route my-node-app scapp.io -n my-random-hostname-123
 # DISPLAY HEALTH AND STATUS FOR APP
 $ cf app my-node-app
 Showing health and status for app my-node-app in org sandbox / space michal as me@example.com
@@ -73,7 +73,7 @@ buildpack: node.js 1.5.8
 
 ```bash
 # DELETE APP
-$ cf delete-app my-node-app
+$ cf delete my-node-app
 ```
 
 ```bash
